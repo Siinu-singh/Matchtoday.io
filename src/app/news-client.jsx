@@ -1,4 +1,5 @@
 
+
 'use client';
 
 import { useState, useMemo } from 'react';
@@ -156,7 +157,6 @@ export function NewsClient({ articles }) {
                                 fill
                                 style={{objectFit: 'cover'}}
                                 data-ai-hint={article.dataAiHint}
-                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 />
                             </div>
                         </Link>

@@ -5,6 +5,14 @@ import path from 'path';
 const URL = "https://matchtoday.io";
 
 export default async function sitemap() {
+  const matchesFilePath = path.join(process.cwd(), 'src', 'data', 'matches.json');
+  const matchesFileContents = await fs.readFile(matchesFilePath, 'utf8');
+  const matches = JSON.parse(matchesFileContents);
+
+  const newsFilePath = path.join(process.cwd(), 'src', 'data', 'news.json');
+  const newsFileContents = await fs.readFile(newsFilePath, 'utf8');
+  const { articles: newsArticles } = JSON.parse(newsFileContents);
+  
   // Static pages
   const staticPages = [
     { url: `${URL}/`, lastModified: new Date() },
@@ -18,17 +26,17 @@ export default async function sitemap() {
     { url: `${URL}/news`, lastModified: new Date() },
   ];
 
-  // Dynamic pages (e.g., from a data source)
-  const matchesFilePath = path.join(process.cwd(), 'src', 'data', 'matches.json');
-  const matchesFileContents = await fs.readFile(matchesFilePath, 'utf8');
-  const matches = JSON.parse(matchesFileContents);
-  
-  // Note: We are assuming a route like /matches/[id] exists for these.
-  // Since it doesn't, this is for demonstration of dynamic sitemap generation.
-  const dynamicPages = matches.map((match) => ({
+  // Dynamic match pages 
+  const matchPages = matches.map((match) => ({
     url: `${URL}/matches/${match.id}`,
     lastModified: new Date(),
   }));
 
-  return [...staticPages, ...dynamicPages];
+  // Dynamic news pages
+  const newsPages = newsArticles.map((article) => ({
+      url: `${URL}/news/${article.id}`,
+      lastModified: new Date(article.date),
+  }));
+
+  return [...staticPages, ...matchPages, ...newsPages];
 }

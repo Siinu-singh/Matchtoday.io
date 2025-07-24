@@ -1,3 +1,4 @@
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -146,6 +147,7 @@ const FeaturesSection = () => {
                         style={{objectFit: 'cover'}}
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                         data-ai-hint={feature.dataAiHint}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                         <CardContent className="relative z-10 p-6 flex flex-col h-full text-white justify-between">
