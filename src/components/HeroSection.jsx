@@ -45,7 +45,7 @@ const HeroSection = () => {
   return (
     <section 
       className="w-full bg-background pt-16 pb-20 md:pt-24 md:pb-28 flex flex-col justify-center relative"
-      style={{ minHeight: 'calc(100vh + 80px)' }} // 80px is header height
+      style={{ minHeight: 'calc(100vh - 80px)' }} // 80px is header height
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -105,8 +105,8 @@ const HeroSection = () => {
                             <Image
                             src="https://images.unsplash.com/photo-1607734834519-d8576ae60ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcmlja2V0JTIwc3RhZGl1bXxlbnwwfHx8fDE3NTI2NDkzMDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
                             alt="Cricket stadium"
-                            layout="fill"
-                            objectFit="cover"
+                            fill
+                            style={{objectFit: 'cover'}}
                             className="z-0"
                             data-ai-hint="cricket stadium"
                             priority
@@ -117,13 +117,13 @@ const HeroSection = () => {
                     <CarouselItem>
                         <div className="grid grid-cols-3 grid-rows-2 gap-2 aspect-[2.4/1] rounded-lg overflow-hidden">
                             <div className="col-span-2 row-span-2 relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1726867911836-a263695ab6c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket action 1" layout="fill" objectFit="cover" data-ai-hint="cricket action" />
+                                <Image src="https://images.unsplash.com/photo-1726867911836-a263695ab6c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket action 1" fill style={{objectFit: 'cover'}} data-ai-hint="cricket action" />
                             </div>
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1624897174291-1bd715e371d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwY2VsZWJyYXRpb258ZW58MHx8fHwxNzUyNjQ5MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket action 2" layout="fill" objectFit="cover" data-ai-hint="cricket celebration" />
+                                <Image src="https://images.unsplash.com/photo-1624897174291-1bd715e371d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwY2VsZWJyYXRpb258ZW58MHx8fHwxNzUyNjQ5MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket action 2" fill style={{objectFit: 'cover'}} data-ai-hint="cricket celebration" />
                             </div>
                              <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1565787154274-c8d076ad34e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmlja2V0JTIwcGxheWVyfGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket action 3" layout="fill" objectFit="cover" data-ai-hint="cricket player" />
+                                <Image src="https://images.unsplash.com/photo-1565787154274-c8d076ad34e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmlja2V0JTIwcGxheWVyfGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket action 3" fill style={{objectFit: 'cover'}} data-ai-hint="cricket player" />
                             </div>
                         </div>
                     </CarouselItem>
@@ -131,13 +131,13 @@ const HeroSection = () => {
                     <CarouselItem>
                         <div className="grid grid-cols-3 gap-2 aspect-[2.4/1] rounded-lg overflow-hidden">
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1665822813956-3041e7ee0f48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1lcmFtYW4lMjBzcG9ydHN8ZW58MHx8fHwxNzUyNzM2MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cameraman filming cricket" layout="fill" objectFit="cover" data-ai-hint="cameraman sports" />
+                                <Image src="https://images.unsplash.com/photo-1665822813956-3041e7ee0f48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1lcmFtYW4lMjBzcG9ydHN8ZW58MHx8fHwxNzUyNzM2MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cameraman filming cricket" fill style={{objectFit: 'cover'}} data-ai-hint="cameraman sports" />
                             </div>
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1745180266685-939a99b553fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwdG91cm5hbWVudHxlbnwwfHx8fDE3NTI2NTAyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket tournament trophy" layout="fill" objectFit="cover" data-ai-hint="cricket tournament" />
+                                <Image src="https://images.unsplash.com/photo-1745180266685-939a99b553fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwdG91cm5hbWVudHxlbnwwfHx8fDE3NTI2NTAyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket tournament trophy" fill style={{objectFit: 'cover'}} data-ai-hint="cricket tournament" />
                             </div>
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1583072728920-4ed8c72cbc01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmlja2V0JTIwZmFuc3xlbnwwfHx8fDE3NTI3MzYxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket fans cheering" layout="fill" objectFit="cover" data-ai-hint="cricket fans" />
+                                <Image src="https://images.unsplash.com/photo-1583072728920-4ed8c72cbc01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmlja2V0JTIwZmFuc3xlbnwwfHx8fDE3NTI3MzYxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket fans cheering" fill style={{objectFit: 'cover'}} data-ai-hint="cricket fans" />
                             </div>
                         </div>
                     </CarouselItem>
@@ -145,10 +145,10 @@ const HeroSection = () => {
                     <CarouselItem>
                         <div className="grid grid-rows-2 gap-2 aspect-[2.4/1] rounded-lg overflow-hidden">
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1709134800935-d00e89d5b8e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Dramatic cricket action shot" layout="fill" objectFit="cover" data-ai-hint="cricket action" />
+                                <Image src="https://images.unsplash.com/photo-1709134800935-d00e89d5b8e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080" alt="Dramatic cricket action shot" fill style={{objectFit: 'cover'}} data-ai-hint="cricket action" />
                             </div>
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1685541000847-f764510e2175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYW1lcmFtYW4lMjBjcmlja2V0fGVufDB8fHx8MTc1MjczNjE1Nnww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket match on TV" layout="fill" objectFit="cover" data-ai-hint="cameraman cricket" />
+                                <Image src="https://images.unsplash.com/photo-1685541000847-f764510e2175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjYW1lcmFtYW4lMjBjcmlja2V0fGVufDB8fHx8MTc1MjczNjE1Nnww&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket match on TV" fill style={{objectFit: 'cover'}} data-ai-hint="cameraman cricket" />
                             </div>
                         </div>
                     </CarouselItem>
@@ -156,16 +156,16 @@ const HeroSection = () => {
                     <CarouselItem>
                         <div className="grid grid-cols-4 grid-rows-2 gap-2 aspect-[2.4/1] rounded-lg overflow-hidden">
                              <div className="col-span-2 row-span-2 relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1695918425489-6c56df5eff9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Athlete portrait" layout="fill" objectFit="cover" data-ai-hint="athlete portrait" />
+                                <Image src="https://images.unsplash.com/photo-1695918425489-6c56df5eff9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Athlete portrait" fill style={{objectFit: 'cover'}} data-ai-hint="athlete portrait" />
                             </div>
                             <div className="col-span-2 relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1743342873510-55d49972b746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmlja2V0JTIwbmV3c3xlbnwwfHx8fDE3NTI2NTAyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket news article" layout="fill" objectFit="cover" data-ai-hint="cricket news" />
+                                <Image src="https://images.unsplash.com/photo-1743342873510-55d49972b746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmlja2V0JTIwbmV3c3xlbnwwfHx8fDE3NTI2NTAyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080" alt="Cricket news article" fill style={{objectFit: 'cover'}} data-ai-hint="cricket news" />
                             </div>
                              <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1695918427978-c7add5d96333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Another athlete" layout="fill" objectFit="cover" data-ai-hint="athlete portrait" />
+                                <Image src="https://images.unsplash.com/photo-1695918427978-c7add5d96333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Another athlete" fill style={{objectFit: 'cover'}} data-ai-hint="athlete portrait" />
                             </div>
                             <div className="relative rounded-lg overflow-hidden">
-                                <Image src="https://images.unsplash.com/photo-1695918425283-eb385c012b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Third athlete" layout="fill" objectFit="cover" data-ai-hint="athlete portrait" />
+                                <Image src="https://images.unsplash.com/photo-1695918425283-eb385c012b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Third athlete" fill style={{objectFit: 'cover'}} data-ai-hint="athlete portrait" />
                             </div>
                         </div>
                     </CarouselItem>
@@ -197,7 +197,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-    
-
-    
