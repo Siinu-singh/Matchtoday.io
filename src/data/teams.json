@@ -1,0 +1,36 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Cosmic Comets",
+      "logo": "https://images.unsplash.com/photo-1730300616532-c92618ac0f32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjcmlja2V0JTIwbG9nb3xlbnwwfHx8fDE3NTI2NTA3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "dataAiHint": "cricket logo",
+      "home_ground": "Stardust Stadium",
+      "captain": "Alex Hales"
+    },
+    {
+      "id": 2,
+      "name": "Solar Strikers",
+      "logo": "https://images.unsplash.com/photo-1739055547874-4fe440a2bfea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwbG9nb3xlbnwwfHx8fDE3NTI2NTA3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "dataAiHint": "cricket logo",
+      "home_ground": "The Sun Spot",
+      "captain": "Ben Stokes"
+    },
+    {
+      "id": 3,
+      "name": "Galaxy Gladiators",
+      "logo": "https://images.unsplash.com/photo-1690111354184-cceee42df518?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmlja2V0JTIwbG9nb3xlbnwwfHx8fDE3NTI2NTA3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "dataAiHint": "cricket logo",
+      "home_ground": "Orion Arena",
+      "captain": "Virat Kohli"
+    },
+    {
+      "id": 4,
+      "name": "Vortex Vikings",
+      "logo": "https://images.unsplash.com/photo-1743342876889-175df444565d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmlja2V0JTIwbG9nb3xlbnwwfHx8fDE3NTI2NTA3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "dataAiHint": "cricket logo",
+      "home_ground": "Cyclone Circle",
+      "captain": "Kane Williamson"
+    }
+  ]
+}

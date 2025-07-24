@@ -1,0 +1,133 @@
+
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Alex Hales",
+            "teamId": 1,
+            "role": "Batsman",
+            "image": "https://images.unsplash.com/photo-1579952516518-6c21a43a6dbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 2,
+            "name": "Ben Stokes",
+            "teamId": 2,
+            "role": "All-Rounder",
+            "image": "https://images.unsplash.com/photo-1544005313-94ddf0286de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 3,
+            "name": "Virat Kohli",
+            "teamId": 3,
+            "role": "Batsman",
+            "image": "https://images.unsplash.com/photo-1692197174597-1d85555c9b33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 4,
+            "name": "Kane Williamson",
+            "teamId": 4,
+            "role": "Batsman",
+            "image": "https://images.unsplash.com/photo-1530029081-120107a0c377?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ4MDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 5,
+            "name": "Rashid Khan",
+            "teamId": 1,
+            "role": "Bowler",
+            "image": "https://images.unsplash.com/photo-1587503429-37831612d334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 6,
+            "name": "Jos Buttler",
+            "teamId": 2,
+            "role": "Wicketkeeper-Batsman",
+            "image": "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 7,
+            "name": "Babar Azam",
+            "teamId": 3,
+            "role": "Batsman",
+            "image": "https://images.unsplash.com/photo-1560272564-c83b66b17331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 8,
+            "name": "Trent Boult",
+            "teamId": 4,
+            "role": "Bowler",
+            "image": "https://images.unsplash.com/photo-1519764622348-23648b7b8493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8YXRobGV0ZSUyMHBvcnRyYWl0fGVufDB8fHx8MTc1MjY0ODAxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 9,
+            "name": "Andre Russell",
+            "teamId": 1,
+            "role": "All-Rounder",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 10,
+            "name": "Jofra Archer",
+            "teamId": 2,
+            "role": "Bowler",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 11,
+            "name": "Rishabh Pant",
+            "teamId": 3,
+            "role": "Wicketkeeper-Batsman",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 12,
+            "name": "David Warner",
+            "teamId": 4,
+            "role": "Batsman",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 13,
+            "name": "Sunil Narine",
+            "teamId": 1,
+            "role": "Bowler",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 14,
+            "name": "Quinton de Kock",
+            "teamId": 2,
+            "role": "Wicketkeeper-Batsman",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 15,
+            "name": "Hardik Pandya",
+            "teamId": 3,
+            "role": "All-Rounder",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        },
+        {
+            "id": 16,
+            "name": "Mitchell Starc",
+            "teamId": 4,
+            "role": "Bowler",
+            "image": "https://placehold.co/400x400.png",
+            "dataAiHint": "athlete portrait"
+        }
+    ]
+}

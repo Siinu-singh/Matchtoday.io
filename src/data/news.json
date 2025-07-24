@@ -1,0 +1,185 @@
+
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "Cosmic Comets Secure Thrilling Last-Ball Victory",
+            "excerpt": "In a nail-biting finish, the Cosmic Comets clinched a win against the Solar Strikers with a six on the final ball of the match.",
+            "date": "2024-07-28",
+            "image": "https://images.unsplash.com/photo-1629285483773-635f543a5349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY4MjQwMnww&q=80&w=1080",
+            "dataAiHint": "cricket action",
+            "category": "Matches"
+        },
+        {
+            "id": 2,
+            "title": "Galaxy Gladiators Announce New Captain",
+            "excerpt": "Virat Kohli has been named the new captain of the Galaxy Gladiators, succeeding the retiring veteran.",
+            "date": "2024-07-27",
+            "image": "https://images.unsplash.com/photo-1593341646782-e0185ad93893?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1lcmFtYW4lMjBzcG9ydHN8ZW58MHx8fHwxNzUyNjQ4MzU1fDA&q=80&w=1080",
+            "dataAiHint": "cameraman sports",
+            "category": "Teams"
+        },
+        {
+            "id": 3,
+            "title": "Vortex Vikings' Star Bowler Out with Injury",
+            "excerpt": "Trent Boult is expected to miss the next three matches due to a shoulder injury sustained during a practice session.",
+            "date": "2024-07-26",
+            "image": "https://images.unsplash.com/photo-1624897184393-e072d5862512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1lcmFtYW4lMjBjcmlja2V0fGVufDB8fHx8MTc1MjY0ODM1NXww&q=80&w=1080",
+            "dataAiHint": "cameraman cricket",
+            "category": "Players"
+        },
+        {
+            "id": 4,
+            "title": "Upcoming Series: A Preview",
+            "excerpt": "Experts weigh in on the upcoming series between the top four teams, predicting a close contest for the championship trophy.",
+            "date": "2024-07-25",
+            "image": "https://images.unsplash.com/photo-1594470117722-de4b9a02ebed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1lcmFtYW4lMjBjcmlja2V0fGVufDB8fHx8MTc1MjY0ODM1NXww&q=80&w=1080",
+            "dataAiHint": "cameraman cricket",
+            "category": "Announcements"
+        },
+        {
+            "id": 5,
+            "title": "Solar Strikers Sign Young Talent",
+            "excerpt": "The Strikers have signed promising young all-rounder Sam Curran for the next season.",
+            "date": "2024-07-24",
+            "image": "https://images.unsplash.com/photo-1579952516518-6c21a43a6dbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait",
+            "category": "Players"
+        },
+        {
+            "id": 6,
+            "title": "Record-Breaking Century by Alex Hales",
+            "excerpt": "Alex Hales from the Cosmic Comets scored a stunning 154 runs, the highest individual score this season.",
+            "date": "2024-07-22",
+            "image": "https://images.unsplash.com/photo-1685541000847-f764510e2175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JpY2tldCUyMGFjdGlvbnxlbnwwfHx8fDE3NTI2NDkzMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket action",
+            "category": "Matches"
+        },
+        {
+            "id": 7,
+            "title": "New Stadium Unveiled for Vortex Vikings",
+            "excerpt": "The Vortex Vikings will play their home games in the new state-of-the-art 'Cyclone Circle' from next month.",
+            "date": "2024-07-20",
+            "image": "https://images.unsplash.com/photo-1652513842544-ca66b676757a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjcmlja2V0JTIwc3RhZGl1bXxlbnwwfHx8fDE3NTI2NDkzMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket stadium",
+            "category": "Teams"
+        },
+        {
+            "id": 8,
+            "title": "MatchToday.io Launches New Fantasy League",
+            "excerpt": "Create your dream team and compete for prizes in the new official fantasy league.",
+            "date": "2024-07-18",
+            "image": "https://images.unsplash.com/photo-1685541001104-91fe7ae1d8e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JpY2tldCUyMHF1aXp8ZW58MHx8fHwxNzUyNjUwMjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket quiz",
+            "category": "Announcements"
+        },
+        {
+            "id": 9,
+            "title": "Gladiators vs. Comets: A Rivalry Renewed",
+            "excerpt": "The upcoming match between the Galaxy Gladiators and Cosmic Comets is set to be a classic encounter.",
+            "date": "2024-07-15",
+            "image": "https://images.unsplash.com/photo-1726867911836-a263695ab6c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket action",
+            "category": "Matches"
+        },
+        {
+            "id": 10,
+            "title": "Kane Williamson Masterclass in Batting",
+            "excerpt": "The Vortex Vikings' captain played a magnificent innings to lead his team to a comfortable victory.",
+            "date": "2024-07-14",
+            "image": "https://images.unsplash.com/photo-1544005313-94ddf0286de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait",
+            "category": "Players"
+        },
+        {
+            "id": 11,
+            "title": "Ticket Sales for Finals Go Live",
+            "excerpt": "Tickets for the championship final are now available. Get yours before they sell out!",
+            "date": "2024-07-12",
+            "image": "https://images.unsplash.com/photo-1750716413341-fd5d93296a76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmlja2V0JTIwZmFuc3xlbnwwfHx8fDE3NTI1ODIyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket fans",
+            "category": "Announcements"
+        },
+        {
+            "id": 12,
+            "title": "Solar Strikers Unveil New Jersey",
+            "excerpt": "The Strikers revealed their new kit for the season, featuring a bold new design.",
+            "date": "2024-07-10",
+            "image": "https://images.unsplash.com/photo-1745180267058-b9db9652b442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmlja2V0JTIwdG91cm5hbWVudHxlbnwwfHx8fDE3NTI2NTAyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket tournament",
+            "category": "Teams"
+        },
+        {
+            "id": 13,
+            "title": "Rain Interrupts Key Match",
+            "excerpt": "The crucial game between the Vikings and Strikers was abandoned due to heavy rain.",
+            "date": "2024-07-08",
+            "image": "https://images.unsplash.com/photo-1660978692407-a7863eebe395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYW5hbHlzaXN8ZW58MHx8fHwxNzUyNjUwMjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket analysis",
+            "category": "Matches"
+        },
+        {
+            "id": 14,
+            "title": "Rashid Khan's Hat-trick Stuns Gladiators",
+            "excerpt": "Cosmic Comets' star bowler Rashid Khan took three wickets in three balls.",
+            "date": "2024-07-05",
+            "image": "https://images.unsplash.com/photo-1587503429-37831612d334?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait",
+            "category": "Players"
+        },
+        {
+            "id": 15,
+            "title": "Tournament Organizers Announce Prize Money",
+            "excerpt": "The winners of this year's tournament will receive a record-breaking prize pool.",
+            "date": "2024-07-02",
+            "image": "https://images.unsplash.com/photo-1740818575251-a33159caf4c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGF5ZXIlMjByYW5raW5nc3xlbnwwfHx8fDE3NTI2NTAyNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "player rankings",
+            "category": "Announcements"
+        },
+        {
+            "id": 16,
+            "title": "Jos Buttler on Fire This Season",
+            "excerpt": "The Solar Strikers' wicketkeeper-batsman has been in exceptional form, leading the run charts.",
+            "date": "2024-06-30",
+            "image": "https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait",
+            "category": "Players"
+        },
+        {
+            "id": 17,
+            "title": "Technology in Cricket: The Rise of AI Umpires",
+            "excerpt": "A deep dive into how technology is changing the way the game is played and officiated.",
+            "date": "2024-06-28",
+            "image": "https://images.unsplash.com/photo-1703229702362-ae76aace387c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmlja2V0JTIwYXJjaGl2ZXN8ZW58MHx8fHwxNzUyNjUwMjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket archives",
+            "category": "Announcements"
+        },
+        {
+            "id": 18,
+            "title": "Historic Day/Night Test Match Ends in a Draw",
+            "excerpt": "The first-ever day/night test match at the Stardust Stadium was a hard-fought battle that ended without a winner.",
+            "date": "2024-06-25",
+            "image": "https://images.unsplash.com/photo-1726867911836-a263695ab6c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmlja2V0JTIwYWN0aW9ufGVufDB8fHx8MTc1MjY0OTMwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket action",
+            "category": "Matches"
+        },
+        {
+            "id": 19,
+            "title": "Galaxy Gladiators Launch Youth Academy",
+            "excerpt": "The Gladiators are investing in the future with a new academy to nurture young talent.",
+            "date": "2024-06-22",
+            "image": "https://images.unsplash.com/photo-1690111354184-cceee42df518?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmlja2V0JTIwbG9nb3xlbnwwfHx8fDE3NTI2NTA3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "cricket logo",
+            "category": "Teams"
+        },
+        {
+            "id": 20,
+            "title": "Player Spotlight: The Rise of Babar Azam",
+            "excerpt": "An in-depth look at the career and playing style of the Galaxy Gladiators' star batsman, Babar Azam.",
+            "date": "2024-06-20",
+            "image": "https://images.unsplash.com/photo-1560272564-c83b66b17331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhdGhsZXRlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzUyNjQ3MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+            "dataAiHint": "athlete portrait",
+            "category": "Players"
+        }
+    ]
+}

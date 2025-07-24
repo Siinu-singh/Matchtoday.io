@@ -1,0 +1,6 @@
+
+[
+  { "id": 1, "team1Id": 1, "team2Id": 2, "team1Score": "178/7", "team2Score": "152/9", "status": "Finished", "matchTime": "Result: Comets won by 26 runs" },
+  { "id": 2, "team1Id": 3, "team2Id": 4, "team1Score": "192/4", "team2Score": "120/3 (15.2 ov)", "status": "Live", "matchTime": "Voyagers need 73 runs in 28 balls" },
+  { "id": 3, "team1Id": 1, "team2Id": 3, "team1Score": "", "team2Score": "", "status": "Upcoming", "matchTime": "Today, 8:00 PM" }
+]
